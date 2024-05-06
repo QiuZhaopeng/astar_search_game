@@ -40,8 +40,8 @@ namespace AstarGame
                         cellList[cellId] = new Cell(chiffre);  // the index-th cell has the Chiffre of start list
                         cellList[cellId].row = i;
                         cellList[cellId].col = j;
-                        cellList[cellId].row_d = chiffre/3;
-                        cellList[cellId].col_d = chiffre%3;                        
+                        cellList[cellId].row_d = chiffre / 3;
+                        cellList[cellId].col_d = chiffre % 3;                        
                     }
                     
                 }
